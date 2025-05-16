@@ -14,7 +14,14 @@ Alanine scanning is a common method in structural and functional biology to iden
 ## 🔧 Usage
 
 ```bash
-python Alanine_Replacement.py --input_file --output_file
+positional arguments:
+  input_file            Input protein file in FASTA format
+
+options:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output file name for mutated sequences in FASTA format
+
 ```
 
 After processing, the script will output a FASTA file in the same directory with the format:
